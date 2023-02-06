@@ -1,0 +1,111 @@
+#sketch {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+h1{
+    font-family: 'Major Mono Display', monospace;  
+    font-size: 7rem;
+    z-index: 0; 
+}
+
+h1:hover{
+    color:rgb(241, 231, 213);
+}
+
+h2{
+    font-family: 'Major Mono Display', monospace; 
+    padding-bottom: 2%;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 0 0 10px;
+}
+
+#name{
+    text-shadow: 0 0 10px;
+    padding-top: 5%;
+}
+
+#title-div{
+    padding: 10% 0% 0% 0%;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    color: white;
+    background-color: #181818;
+}
+
+.icon{
+    padding: 2%;
+}
+
+.icon-row{
+    padding: 0% 10% 0% 10%;
+}
+
+.opaque-div{
+        background-color: rgba(24,24,24,0.8);
+        width: 75%;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding: 25px;      
+}
+
+#intro{
+    width: auto;
+    background-color: #181818;
+}
+
+#about{
+    padding-top: 30%
+}
+
+.text{
+    padding: 0.5%;
+    font-size: 1.5rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+
+#projects{
+    padding: 7% 0%;
+}
+
+.project-img{
+    width: 620px;
+    height: 344px;
+}
+
+.carousel-item{
+    width: 620px;
+    height: 650px;
+}
+
+#up-next{
+    padding-bottom: 13%;
+}
+
+#contact{
+    align-items: center;
+    background-color: #181818;
+}
+
+.con-icon{
+    padding-top: 15px;
+    height: 50px;
+}
